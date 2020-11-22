@@ -89,7 +89,7 @@ namespace Inlamning_3_ra_kod
         /* METHOD: VarString
          * PURPOSE: construct a string to write out in a variable list
          * PARAMETERS: none
-         * RETURNS: Show the value saved on the alphabets
+         * RETURNS: Datatype String. Returns a string value saved on the alphabets
          */
         public string VarString()
         {
