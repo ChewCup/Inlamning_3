@@ -61,8 +61,10 @@ namespace Inlamning_3_ra_kod
     }
         /* METHOD: Exit
          * PURPOSE: called on exit, prepared for saving
-         * PARAMETERS: --
-         * RETURNS: --
+         * saves all values shown on the calculator window
+         * into existing file or into a new file
+         * PARAMETERS: none
+         * RETURNS: Return value is void
          */
         public void Exit()
         {
@@ -86,8 +88,8 @@ namespace Inlamning_3_ra_kod
         }
         /* METHOD: VarString
          * PURPOSE: construct a string to write out in a variable list
-         * PARAMETERS: --
-         * RETURNS: NOT YET IMPLEMENTED
+         * PARAMETERS: none
+         * RETURNS: Show the value saved on the alphabets
          */
         public string VarString()
         {
@@ -296,10 +298,11 @@ namespace Inlamning_3_ra_kod
             Letter = name;
         }
         /* METHOD: SetVar
-         * PURPOSE: 
-         * PARAMETERS: --
-         * RETURNS: --
-         * FEATURES: NOT YET IMPLEMENTED
+         * PURPOSE: To store the X value on selected alphabet
+         * PARAMETERS: none
+         * RETURNS: Return value is void
+         * FEATURES: Click on any of A, B, C, D, E, F, G, H and the 
+         * "store" button to save the X value into the selected alphabet
          */
         public void SetVar()
         {
@@ -318,10 +321,11 @@ namespace Inlamning_3_ra_kod
             }
         }
         /* METHOD: GetVar
-         * PURPOSE: 
-         * PARAMETERS: --
-         * RETURNS: --
-         * FEATURES: NOT YET IMPLEMENTED
+         * PURPOSE: Print out the saved alphabet value into X
+         * PARAMETERS: none
+         * RETURNS: Return value is void
+         * FEATURES: Click on A, B, C, D, E, F, G, H and "recall" button to print out
+         * the saved alphabet value into X colum
          */
         public void GetVar()
         {
